@@ -1,0 +1,53 @@
+body {
+  width: 1600px;
+}
+
+.header-style {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation {
+  display: inline-block;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.link-styles > .link {
+  display: inline-block;
+}
+
+.contacts > .contact-link {
+  display: inline-block;
+}
+.web-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.studio-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+.logo {
+}
+.go-main {
+  font-size: 0;
+  text-decoration: none;
+
+  margin-top: 25px;
+  padding-left: 215px;
+}
