@@ -1,53 +1,146 @@
+:root {
+  --primary-text-color: #757575;
+  --web-logo-color: #2196f3;
+  --studio-logo-color: #000000;
+  --fover-focus-color: #2196f3;
+  --headers-text-color: #212121;
+  --main-back-ground-color: #e5e5e5;
+  --hero-footer-color: #2f303a;
+}
 body {
-  width: 1600px;
+ font-family: Roboto;
+  color: var(--primary-text-color);
 }
-
 .header-style {
-  background-color: #ffffff;
   display: flex;
-  justify-content: space-between;
 }
-.navigation {
-  display: inline-block;
-  justify-content: space-between;
-  width: 300px;
+.list {
+  list-style: none;
+ 
 }
-
-.link-styles > .link {
-  display: inline-block;
-}
-
-.contacts > .contact-link {
-  display: inline-block;
-}
-.web-logo {
-  font-family: Raleway;
+.link {
+  color: var(--headers-text-color);
+  text-decoration: none;
   font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
 
-  letter-spacing: 0.03em;
+}
+.logo-link {
+  display: block;
+}
+.link:hover,
+.link:focus {
+  color: var(--fover-focus-color);
+}
+/* logo styles */
+.web-logo {
 
-  color: #2196f3;
+
+color: #2196F3;
 }
 .studio-logo {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
 
-  letter-spacing: 0.03em;
-
-  color: #000000;
+color: #000000;
 }
 .logo {
-}
-.go-main {
-  font-size: 0;
-  text-decoration: none;
+font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
 
-  margin-top: 25px;
-  padding-left: 215px;
+
+letter-spacing: 0.03em;
+margin: 0;
+word-spacing: 0px;;
 }
+
+.contact-link {
+
+
+color: #757575;
+}
+.hero {
+  background-color: var(--hero-footer-color);
+  height: 600px;
+}
+.hero-title {
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+.main-button {
+
+
+
+}
+.titles {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+
+}
+
+.skill-list {
+  list-style: none;
+}
+.navigation {
+  display: flex;
+}
+.navigation-list {
+display: flex;
+
+}
+
+.second-seader {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.description {
+  font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+.our-team {
+ font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+/* нужно сделать подсветку текущей страницы добавив клас каррент ,
+редактор при наведении на селкутор подсказывает к кому обращаемся,
+розобраться с ветками в гитхаб,
+перечитать тему оформление текста,/
