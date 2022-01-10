@@ -11,6 +11,14 @@
   --white-color: #ffffff;
   --back-ground-btn: #f5f4fa;
 }
+
+html {
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 body {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
@@ -93,7 +101,6 @@ body {
   cursor: pointer;
 }
 .titles {
-  font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -106,7 +113,6 @@ body {
   color: var(--primary-text-color);
 }
 .second-header {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -117,7 +123,6 @@ body {
   background-color: var(--last-section-color);
 }
 .our-team {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
